@@ -20,12 +20,12 @@ public class VmOffers {
     private Long id;
     private String name;
     private String description;
-    private String cpu_count;
-    private String memory_size_mib;
-    private String disk_size_gb = null;
+    private String cpuCount;
+    private String memorySizeMib;
+    private String diskSizeGb = null;
     private String price;
     @Enumerated(EnumType.STRING)
-    private Status is_active; // Type de la commande (cash, credit)
+    private Status isActive; // Type de la commande (cash, credit)
 
     private LocalDateTime createdAt;
 }
